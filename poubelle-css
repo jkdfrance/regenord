@@ -1,0 +1,101 @@
+https://chat.openai.com/share/3a0a6c57-940d-4910-9133-1e2fa597681f
+
+
+
+
+
+
+
+
+
+
+/*.container-contexte h2 {
+    margin-left:50rem;
+     font-family: 'poppins';
+}*/
+
+/*.values {
+    shape-outside: margin-box;
+    margin:0 30px 5px 0;
+    float:left;
+    width: 320px;
+    height:45vh;
+    object-fit:cover;
+    border-radius: 60%;
+}*/
+
+
+/*.expert {
+    top:5rem;
+}*/
+
+
+
+/*.sidebar {
+    display: flex; /* Utiliser Flexbox pour aligner les éléments enfants en ligne */
+    /*flex-wrap: wrap; /* Permettre le retour à la ligne des éléments lorsque la largeur de la barre latérale est trop petite */
+ /*   justify-content: space-between; /* Espacement égal entre les éléments */
+
+
+/*.image-link {
+    
+   
+    margin: 8px;
+    flex: 0 0 calc(122.33% - 20px); /* Largeur de chaque image avec espace entre elles */
+    /*margin-bottom: 20px; /* Espacement vertical entre les images */
+    /*position: relative; /* Position relative pour permettre le positionnement absolu des éléments enfants */
+
+
+/*.image-link img {
+    width: 150px; /* Pour que les images occupent toute la largeur de leur conteneur */
+    /*height: auto;
+    max-height: 250px; /* Taille maximale pour les images en hauteur (ajustez selon vos besoins) */
+
+
+/*.image-link:hover img {
+    transform: scale(1.1); /* Effet de zoom au survol */
+
+
+/*.image-text {
+    position: absolute; /* Position absolue par rapport au conteneur parent */o
+    /*bottom: 20px; /* Espacement par rapport au bas du conteneur parent */
+    /*left: 10px; /* Espacement par rapport à la gauche du conteneur parent */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    /*padding: 5px; /* Espacement à l'intérieur de l'élément */
+    /*color: white; /* Couleur du texte */
+    /*font-size: 14px; /* Taille de la police */
+------------------------------------------------------------------------------------------------------                                                                                                                                                                                                      
+    ........................formualire js dans wampserver............
+<form id="myForm">
+    <input type="text" id="name" placeholder="Nom">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Mot de passe">
+    <button type="button" onclick="submitForm()">Envoyer</button>
+</form>
+
+
+    function submitForm() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+
+    var formData = new FormData();
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('password', password);
+
+    // Envoyer les données à votre serveur
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'traitement.php', true);
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            console.log('Données envoyées avec succès !');
+        } else {
+            console.error('Erreur lors de l\'envoi des données.');
+        }
+    };
+    xhr.send(formData);
+}
+
+
+Failed to load resource: the server responded with a status of 404 (Not Found)

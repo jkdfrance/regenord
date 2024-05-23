@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style-1.css">
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script>
+<script>
+    const send = (event) => {
+        event.preventDefault();
+        let name = document.querySelector("#name").value;
+        let email = document.querySelector("#email").value;
+        let password = document.querySelector("#password").value;
+        console.log(name, email, password);    
+    }
+</script>
+</head>
+<body>
+
+  <!--nav id="nav">
+    <h3>Mon site &#9752;</h3>
+    <ul>
+      <li>
+        <a href="#">accueil</a>
+      </li>
+      <li>
+        <a href="#">boutique</a>
+      </li>
+      <li>
+        <a href="#">blog</a>
+      </li>
+    </ul>
+    <div id="icons"></div>
+  </nav-->
+   
+ <!--nav id="nav">
+    <h3>Mon site &#9752;</h3>
+    <ul>
+      <li>
+        <a href="#">accueil</a>
+      </li>
+      <li>
+        <a href="#">boutique</a>
+      </li>
+      <li>
+        <a href="#">blog</a>
+      </li>
+    </ul>
+    <div id="icons"></div>
+  </nav-->
+<nav id="nav" class="actIve">
+        <ul>
+            <li><a href="acceuil.html" id="lienAcceuil">le cabinet</a></li>
+            <li><a href="qui_sommes.html" id="lienQuiNousSommes">qui nous sommes</a></li>
+            <li><a href="page3.html" id="lienNosActivités">contact</a></li-->
+        </ul>
+    <div id="icons"></div>
+</nav>
+ <div>
+     <img class="logo-reg" src="logo/logo8.png"  alt="logo" onclick="pulsateImage()">
+     </div>
+    <section>
+        <div class="lignes">
+            <div class="l1" id="l1"></div>
+            <div class="l2" id="l2"></div>
+        </div>
+        <div class="container-first">
+            <h1><span>cabinet</span><br> <span>conseil</span><br><span>a</span><span> la</span> <span>personne</span></h1>
+        </div>
+   </section>
+<section>
+
+    
+<main>
+       <div class="container ">
+                <h2 id='qui'>Qui sommes nous </h2>
+                <div class="content">
+                    <p>REGENORD est un cabinet coopératif de conseil à la personne, 
+                        offrant un accompagnement à chaque étape de la vie, de l'éducation à la retraite.</p>
+                    <p> Nous réalisons des évaluations pour les caisses de retraite, proposant des solutions pour le maintien à domicile</p>
+                    <p>Avec près de 20 ans d'expérience, nous offrons des conseils et des formations pour la préparation à la retraite, 
+                        ainsi que des formations à la méthode ADVP pour évaluer en compétences et appétences.</p>
+                </div>
+            </div>
+
+<div>
+    
+
+    <img class="formatrice" src="image/formatrice.jpg" alt="photo de femme">
+    <h3 id="formatrice">REGENORD</h3>
+</div>
+
+<!--div class="container-form" id="container">
+    <div-- class="form-container sign-up-container">
+        <form action="https://exemple.com/connexion" method="POST">
+            <h1>Connectez vous</h1>
+            <div class="social-container">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>Utiliser compte gmail</span>
+            <input type="text" id="name" placeholder="nom">
+            <input type="email" id="email" placeholder="email">
+            <input type="password" id="password" placeholder="password">
+            <button onclick="send(event)">Se connecter</button>
+        </form>
+    </div-->
+
+            
+    <!--div class="container-btns">
+<button.btn-first> creer deux boutton>
+    <button class="btn-first b1">Parler à un expert</button>
+</div-->
+
+<!--div class="container-btns">
+  <div class="image-clip">
+    <a href="lien_vers_image_1">
+      <img src="image/expert.png" id="expert" alt="photo d'expert">
+      <span class="clip-text">Parler à un expert</span>
+      <!--button class="btn-first b1">Parler à un expert</button-->
+      
+    <!--/a>
+  </div>
+</div-->
+
+
+
+
+
+<div class="contains">
+        <img class="values" src="image/VALEUR.jpg" alt='image de groupe'>
+         <h2>Nos valeurs :</h2>
+            <p>Nos valeurs reposent d’une part sur notre héritage associatif :</p>
+              <ul>
+                 <li>
+                    - La lutte contre l’isolement
+                </li>
+                <li>
+                    - Le droit à vivre dignement
+                </li>
+            </ul>
+                <p>et d’autre part sur notre identité coopérative qui se définit par :</p>
+            <ul>
+                <li>- la reconnaissance de la dignité du travail ; </li>
+                <li>- le droit à la formation ;</li>
+                <li>- le droit à la créativité et à l’initiative ; </li>
+                <li>- la responsabilité dans un projet partagé ; </li>
+                <li>- la transparence et la légitimité du pouvoir ; </li>
+                <li>- la pérennité de l’entreprise fondée sur des réserves ;</li>
+                <li>- l’ouverture au monde extérieur.</li>
+                </ul>
+</div>
+
+        <ul class="medias">
+            <li class="bulle"><img src="ressources/fb.png" class="logo-medias"></li>
+            <li class="bulle"><img src="ressources/insta.svg" class="logo-medias"></li>
+            <!--li class="bulle"><img src="ressources/github.svg" class="logo-medias"></li>
+            <li class="bulle"><img src="ressources/yt.svg" class="logo-medias"></li-->
+            </ul>
+        </ul>
+
+    <div class="sidebar">
+        <div class="image-link box" >
+            <a href="lien_vers_image_1">
+            <img src="image/conseil2.jpg" id="conseil2" alt="image les Conseils">
+            <span class="image-text"> conseils</span>
+        </a>
+        </div>
+    <div class="image-link box" >
+        <a href="lien_vers_image_2">
+            <img src="image/success.png" id="eval" alt="image les evaluations">
+            <span class="image-text"> évaluations</span>
+        </a>
+    </div>
+    <div class="image-link box">
+        <a href="lien_vers_image_3">
+            <img src="image/formation.jpg"  id="formation"  alt="image les formations">
+            <span class="image-text">formations</span>
+        </a>
+    </div>
+</div>
+<!--div class="block-phrase">
+        <div class="phrase1">Venez nous rendre visite</div>
+        <div class="phrase2">pour mieux nous connaitre au :</div>
+        <div class="phrase3">10 rue de la paix 75010 Paris</div>
+    </div-->
+<div class='faq'>
+    <p>Cabinet cooperatif Regenord</p>
+</div>
+</section >
+
+<section>
+<div id="btn1" class="btn">
+  <ion-icon id="btn-icon1" name="chevron-down"></ion-icon>
+</div>
+<h2 class="titre">Quels sont les éléments contextuels liés à la formation des formateurs ?
+</h2>
+<div id="container-contexte1" class="container-contexte">
+  <br>
+  <p>le contexte spécifique entourant la formation de formateurs, soulignant ses diversités et dynamiques. Les principaux éléments abordés comprennent :</p>
+  <br>
+  <ul>
+    <li>1.Domaine d'enseignement : La formation de formateur peut englober une variété de domaines tels que l'éducation, la formation professionnelle et le développement personnel.</li>
+    <li>2.Public cible : Les participants à la formation de formateur peuvent être des enseignants, des professionnels de la formation, des superviseurs, des gestionnaires ou toute personne chargée de dispenser des connaissances ou des compétences à d'autres.</li>
+    <li>3.Objectifs de la formation : Ces objectifs peuvent inclure le renforcement des compétences pédagogiques, la maîtrise des techniques d'enseignement, la conception de programmes de formation efficaces, la gestion de groupe et l'évaluation des apprenants.</li>
+    <li>4.Méthodes pédagogiques : Une variété de méthodes pédagogiques peut être utilisée, telles que des présentations interactives, des études de cas, des jeux de rôle et des ateliers pratiques.</li>
+    <li>5.Cadre réglementaire : Les réglementations spécifiques peuvent exister en fonction du pays ou de l'organisation, comprenant des certifications requises et des lignes directrices sur le contenu de la formation.</li>
+    <li>6.Évolution des pratiques : Les avancées technologiques et les évolutions dans les méthodes d'apprentissage sont également prises en compte, notamment l'intégration des technologies de l'information et de la communication dans l'enseignement.</li>
+  </ul>
+  <br>
+  <p>En conclusion, la formation de formateur vise à développer les compétences nécessaires pour dispenser une formation efficace et adaptée aux besoins du public cible, dans un environnement diversifié et en constante évolution.</p>
+</div>
+
+<div id="btn2" class="btn">
+  <ion-icon id="btn-icon2" name="chevron-down"></ion-icon>
+</div>
+<h2 class="titre-1">Pourquoi faire appel au cabinet de conseil à la personne Regenord ?</h2>
+<div id="container-contexte2" class="container-contexte">
+  <br>
+  <p>L'appel au cabinet de conseil REGENORD peut être motivé par plusieurs raisons, notamment :</p>
+  <br>
+  <ul>
+    <li>1.Expertise spécialisée dans le domaine du vieillissement et de la retraite : Fondée en 1990 dans le cadre de la mise en place d'un réseau gérontologique, REGENORD possède une vaste expérience dans l'accompagnement des personnes âgées et des questions liées à la retraite.</li>
+    <li>2.Reconnaissance par les autorités compétentes : En 2005, REGENORD a été identifiée comme l'une des premières cellules d'évaluation des caisses de retraite par la Caisse Nationale d'Assurance Veillesse (CNAV), démontrant ainsi sa crédibilité et son professionnalisme dans le domaine.</li>
+    <li>3.Évolution vers une structure coopérative : En 2009, REGENORD a évolué vers une Société Coopérative et Participative (SCOP), démontrant son engagement envers la participation des salariés et une gouvernance démocratique. Cette évolution vers une SCOP renforce la confiance dans sa capacité à offrir des services de qualité.</li>
+    <li>4.Élargissement des services proposés : Au fil des ans, REGENORD a étendu ses activités pour proposer des services de conseil et d'accompagnement dans l'élaboration de projets professionnels ou personnels, en plus de son expertise en matière de retraite.</li>
+    <li>5.Composition de l'équipe : L'équipe permanente de REGENORD est composée de professionnels qualifiés, incluant une gérante avec un parcours managérial, social et pédagogique, ainsi qu'une évaluatrice possédant une expérience dans les domaines social et commercial. De plus, l'équipe est renforcée par des intervenants sélectionnés pour leurs compétences spécifiques.</li>
+  </ul>
+  <br>
+  <p>En résumé, faire appel à REGENORD peut être bénéfique pour ceux qui cherchent un accompagnement professionnel et spécialisé dans les questions liées au vieillissement, à la retraite et à la planification de projet personnel ou professionnel.</p>
+</div>
+<div id="btn3" class="btn">
+  <ion-icon id="btn-icon3" name="chevron-down"></ion-icon>
+</div>
+
+<h2 class="titre-3">En quoi Regenord est-il différent d'un autre cabinet cooperatif a la personne ?</h2>
+<div id="container-contexte3" class="container-contexte">
+  <br>
+<p>Regenord se distingue en tant que cabinet de conseil coopératif à destination des personnes, offrant un accompagnement continu tout au long de leur vie, depuis les études jusqu'à la retraite. En tant que cellule d'évaluation pour les caisses de retraite, nous réalisons des diagnostics personnalisés et proposons des solutions adaptées pour favoriser le maintien à domicile. Notre expertise s'étend également à la préparation à la retraite, où nous offrons des conseils et un accompagnement basés sur près de 20 ans d'expérience dans les problématiques du troisième âge. De plus, nous proposons des formations en méthode ADVP pour évaluer les compétences et les aspirations professionnelles. Fondée en 1990 sous forme associative, l'association Regenord est devenue une Société Coopérative et Participative (SCOP) en 2009. Notre équipe permanente, composée d'une gérante et d'une évaluatrice expérimentées, est renforcée par des intervenants sélectionnés pour leurs compétences. Nos valeurs reposent sur la lutte contre l'isolement, le droit à vivre dignement, ainsi que sur des principes coopératifs tels que la dignité du travail, le droit à la formation et à l'initiative, la responsabilité dans un projet partagé, et la transparence. En tant que cellule d'évaluation, nous réalisons des évaluations globales des besoins des personnes fragiles et proposons des plans d'action personnalisés pour le maintien à domicile, avec le soutien financier des caisses de retraite lorsque nécessaire. Notre engagement est ancré dans la prévention et le soutien aux personnes âgées pour assurer une qualité de vie optimale.
+</p>
+</section>
+</main>
+
+<footer>
+    <div class="contenu-footer">
+
+        <div class="blo footer-services">
+            <h3>Nos services</h3>
+            <ul class="listes-services">
+                <li><a href="#">Hebergement</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Adresse</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+<!--newsLetter-->
+    <section>
+    <div class="news-container">
+        <h2>Newsletter: Maintien à domicile et soutien des caisses de retraite</h2>
+        <p>Chers abonnés,</p>
+        <p>Nous sommes ravis de vous présenter notre nouvelle newsletter mettant en lumière notre mission et nos services en tant que cellule d'évaluation pour les caisses de retraite, focalisée sur le maintien à domicile des personnes fragiles.</p>
+        <h2>À propos de nous :</h2>
+        <p>Nous sommes une équipe dédiée à l'évaluation des situations personnelles des individus pour les caisses de retraite. Notre objectif principal est de proposer des solutions adaptées afin de permettre à nos clients de rester chez eux, dans leur environnement familier, tout en garantissant leur bien-être et leur autonomie.</p>
+        <h2>Nos services :</h2>
+        <ul>
+            <li>Évaluation complète des besoins</li>
+            <li>Plan d'action personnalisé</li>
+            <li>Assistance financière</li>
+        </ul>
+        <h2>Pour qui ?</h2>
+        <p>Notre assistance s'adresse à toutes les personnes en situation de fragilité, ainsi qu'à leurs familles et aidants, cherchant des solutions pour maintenir une qualité de vie optimale à domicile.</p>
+        <p>Pour en savoir plus, <a class="contact"href="#">contactez-nous</a>.</p>
+        <p>Merci de votre attention et de votre confiance.</p>
+        <p class="footer-news">Bien cordialement,<br>L'équipe de la Cellule d'évaluation pour les caisses de retraite.</p>
+    </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="conditions.html">Les conditions générales</a></li>
+        <!--li><a href="qui_sommes.html">Qui sommes-nous</a></li-->
+        <!--li><a href="page3.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Coordonnées</h3>
+      <p>10 rue de la paix<br>75010 Paris</p>
+    </div>
+    <div class="footer-section">
+      <h3>Réseaux sociaux</h3>
+      <ul class="social-icons">
+        <li><a href="#"><img src="ressources/fb.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="ressources/insta.svg" alt="Instagram"></a></li>
+        <li><a href="#"><img src="logo/x.png" alt="x"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>&copy; 2024 Cabinet Conseil REGENORD. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<!--footer>
+    <p>Conditions générales | <a href="#">Contact</a> | Adresse</p>
+    <p>
+        <a href="#"><img src="ressources/fb.png" alt="Facebook"></a>
+        <a href="#"><img src="ressources/insta.svg" alt="Instagram"></a>
+        <a href="#"><img src="logo/x.png" alt="x"></a>
+    </p>
+    <p>&copy; 2024 Cabinet Conseil REGENORD. Tous droits réservés.</p>
+</footer-->
+
+
+            
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+
+  <script src="exo3.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
