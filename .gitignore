@@ -1,0 +1,87 @@
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+
+# Ignore images and resources
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+
+# Output directories
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Miscellaneous
+*.bak
+*.backup
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Typescript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other
+coverage/
+
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Typescript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other
+coverage/

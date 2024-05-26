@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire d'inscription et de connexion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form id="signUpForm" action="#" method="post">
+            <h1>Créer un compte</h1>
+            <div class="social-container">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>Utiliser le formulaire</span>
+            <input type="text" id="signUpName" name="name" placeholder="Votre nom"> *
+            <input type="text" id="signUpFirstname" name="firstname" placeholder="Votre prénom"> *
+            <input type="email" id="signUpEmail" name="email" placeholder="Votre email"> *
+            <input type="password" id="signUpParswwod" name="mot de passe" placeholder="mot de passe"> *
+            <button type="button" onclick="signUp()">S'inscrire</button>
+        </form>
+        </div>
+
+        <div class="form-container sign-in-container">
+            <form id="signInForm" action="#" method="post">
+                <h1>Connectez-vous</h1>
+                <div class="socila-container"></div>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-google-plus"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>Connexion</span>
+          <input type="text" id="signInName" name="name" placeholder="votre nom">
+           <input type="text" id="signInFirstname" name="firstname" placeholder="votre prénom">
+            <input type="email" id="signInEmail" name="email" placeholder="votre email">
+             <input type="password" id="signInPassword" name="password" placeholder="mot de passe">
+             <button type="button" onclick="signIn()">Connexion</button>
+        </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <
+            </div>
+        </div>
+</div>
+</body>
+</html>
