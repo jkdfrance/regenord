@@ -117,7 +117,7 @@ li   {
     transition: all 0.3s ease; /* Ajout d'une transition pour une animation fluide */
 }
 
-#nav ul li a::after {
+#nav ul li a::after{
     content: '';
     position: absolute;
     width: 0; /* Initialiser la largeur du soulignement à zéro */
@@ -154,6 +154,31 @@ li   {
     left: 45%;
     bottom: 280px;
 }
+
+/***** regenord sur photo formatrice ****/
+ .formatrice {
+    max-width:450px;
+    max-height:600px;
+}
+#formatrice {
+    
+    letter-spacing: 1rem;
+    position: absolute;
+  top: 145%; 
+  left: 60%;
+  /*transform: translateX(-10%) rotate(11deg); */
+  font-size: 54px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
+
+.rounded {
+    border-radius: 10px; /* Pour arrondir les coins */
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 5px 10px; /* Ajoutez un peu de marge intérieure pour le contenu */
+}
+
+
 
 @keyframes slideRightToLeft {
     from {
@@ -525,7 +550,7 @@ a {
 
 .contains {
     position:relative;
-    max-height:75vh;
+    max-height:85vh;
       padding:30px;
       max-width:600px;
       top:6rem;
@@ -748,6 +773,7 @@ nav.active ul {
 
 /*** MENU ***/
  .container {
+     top:320px;
       max-height: 80vh; /* Hauteur maximale en pourcentage de la hauteur de la fenêtre */
       overflow-y: auto;/* Ajout de défilement vertical si nécessaire */
   }
@@ -758,7 +784,7 @@ nav.active ul {
   }
 
 .lignes {
-      margin:3.4em;
+      margin:4.4em;
   }
 
   h1 {
@@ -794,7 +820,7 @@ nav.active ul {
 }
 
   .contains {
-     
+    max-height:750px; 
     margin-top:50px;
 }
 
@@ -807,22 +833,21 @@ nav.active ul {
   position: relative;
   /*display: inline-block;*/
 }
-.container-contexte h2 {
+container-contexte h2 {
     font-family: 'poppins';
 }
 
+.values {
+    width: 300px;
+    height:260px;
+}
 
+.container-first{
+    top:262px;
+} 
 
 }
 
 
 
-
-
-
-
-
-
-
-
-
+        
