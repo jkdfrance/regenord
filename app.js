@@ -1,7 +1,10 @@
 //js pour la pge d acceuil
 /*document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger)*/
- 
+
+
+
+function handleInitialAnimation() {
 gsap.registerPlugin(ScrollTrigger); 
 
 const titreSpans = document.querySelectorAll('h1 span');
@@ -25,6 +28,8 @@ window.addEventListener('load', () => {
 
     TL.play();
 });
+}
+
 //toggle animer.
 /*document.getElementById('btn').addEventListener('click', function() {
   var container = document.getElementById('container-contexte');
@@ -76,8 +81,7 @@ document.getElementById('btn3').addEventListener('click', function() {
         container3.style.display = 'block';
         icon3.setAttribute('name','chevron-up');
     }
-})
-
+});
 
 // Enregistrez le plugin ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
